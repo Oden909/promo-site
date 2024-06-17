@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Promo Site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1>Cat Promo Site</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">🏠 Home</a></li>
+                    <li><a href="catalog.html">📚 Catalog</a></li>
+                    <li><a href="buy.html">🛒 Buy</a></li>
+                    <li><a href="contact.html">✉️ Contact</a></li>
+                    <li><a href="about.html">ℹ️ About Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <h2>Welcome to the Cat Promo Site</h2>
+            <p>Explore our collection of lovely cats and find your perfect companion!</p>
+            <button id="animateBtn" onclick="animateAndHide()">Click me for animation</button>
+        </section>
+        <section id="about" class="info-section">
+            <h2>About Us</h2>
+            <p>Welcome to our Cat Promo Site! We are dedicated to providing you with the best feline companions.</p>
+        </section>
+        <section id="reviews" class="info-section">
+            <h2>Customer Reviews</h2>
+            <div class="review">
+                <div class="review-info">
+                    <img src="img/guy.jpg" alt="User 1">
+                    <p>"This is the best place to find a new furry friend!" - Kirill Petrov</p>
+                </div>
+            </div>
+            <div class="review">
+                <div class="review-info">
+                    <img src="img/female.jpg" alt="User 2">
+                    <p>"Our new cat is absolutely adorable and the service was excellent!" - Nastya Orhova</p>
+                </div>
+            </div>
+        </section>
+        <section id="map" class="info-section">
+            <h2>Our Location</h2>
+            <div id="mapContainer"></div>
+            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A9efd0e9b9a50065f6eea475b316b746a03817be370b12a2b7dbc7662f4dc83b3&amp;width=100%&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Cat Promo Site. All rights reserved.</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
